@@ -1,0 +1,60 @@
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+
+.first_d{
+  grid-column-start: 1;
+}
+  
+.dia {
+  background-color: #988c8c;
+  text-align: center;
+  
+}
+h1{
+  text-align: center;
+}
+div{
+  text-align: center;
+  height: 1fr;
+  width: 300px;
+  display: inline-block;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+li{
+  text-align: center;
+  grid
+}
+
+body{
+  background-color: black;
+  color: white;
+  border: white 5px solid;
+}
+
+.first_df{
+  grid-column-start: 4;
+}
+
+
+.first_dm{
+  grid-column-start: 5;
+}
+.first_dmy{
+  grid-column-start: 3;
+}
+.first_djn{
+  grid-column-start: 6;
+}
+
+.first_ds{
+  grid-column-start: 7;
+}
+
+.first_do{
+  grid-column-start: 2;
+}
